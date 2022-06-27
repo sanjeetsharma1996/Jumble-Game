@@ -18,10 +18,6 @@ class JumbleGame():
         self.jumbled = "".join(self.jumble_word)
         return self.jumbled
 
-    # def player_input(self):
-    #     print(f"{self.count} Guess the word: {self.jumbled}\n")
-    #     self.user_input = input ("Enter your Guess: ")
-
     def player_input(self):
         jumbled = self.make_jumble()
         print(f"{self.turn} Guess the word: {jumbled}\n")
